@@ -3,7 +3,7 @@
 
 Bu projede, medikal görüntü işleme için temel araçlar ve algoritmalar ele alınmıştır. Özellikle, DICOM formatındaki görüntülerin farklı veri tiplerine dönüştürülmesi ve Dicom formatındaki görüntülerin JPEG formatına dönüştürülmesi sonrasında, SNR, SSIM ve PSNR testlerinin uygulanması konuları işlenmiştir. Proje içerisinde gerçekleştirilen işlemlerin detaylı anlatımını sağlamak ve teori olarak da anlatımını aktarmak  amacıyla bir blog yazı yazılmıştır. 
 
-Blog Yazısı : [https://medium.com/@yusufbaykaloglu/medikal-g%C3%B6r%C3%BCnt%C3%BC-i%CC%87%C5%9Fleme-medical-i%CC%87mage-processing-part-1-abecabce6c54]
+[https://medium.com/@yusufbaykaloglu/medikal-g%C3%B6r%C3%BCnt%C3%BC-i%CC%87%C5%9Fleme-medical-i%CC%87mage-processing-part-1-abecabce6c54](Blog Yazısı)
 
 
 ## Kurulum
