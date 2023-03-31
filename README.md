@@ -83,10 +83,12 @@ image = image_prep.dicom_to_npy(dicom_path, npy_path)
 #### Dicom Data Type
 ```python
 image = image_prep.read_dicom("path/to/dicom")
+image = image_pred.save_dicom("path/to/dicom")
 ```
 #### JPEG Data Type
 ```python
 image = image_prep.read_jpeg("path/to/jpeg")
+image = image_pred.save_jpeg("path/to/jpeg")
 ```
 #### Applying CLAHE
 Görüntü üzerinde CLAHE algoritması işlemi uygulamak için "clahe" fonksiyonunu çağırabilirsiniz.
