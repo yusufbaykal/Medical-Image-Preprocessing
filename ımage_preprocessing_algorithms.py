@@ -12,8 +12,8 @@ class ImagePreprocessing:
     def Dicom_to_Jpeg(Path):
         try:
             dicom_image = pydicom.read_file(Path)
-            satır = dicom_image.get(0x00280010).value  
-            sutun = dicom_image.get(0x00280011).value  
+            row = dicom_image.get(0x00280010).value  
+            column = dicom_image.get(0x00280011).value  
             orn_number = int(dicom_image.get(0x00200013).value)  
             pnc_mrkz = int(dicom_image.get(0x00281050).value)  
             pnc_genıs = int(dicom_image.get(0x00281051).value)  
@@ -29,11 +29,11 @@ class ImagePreprocessing:
             else:
                 olck_egm = int(dicom_image.get(0x00281053).value)
 
-            yenı_image = np.zeros((satır, sutun), np.uint8)
+            yenı_image = np.zeros((row, column), np.uint8)
             pixels = dicom_image.pixel_array
 
-            for i in range(0, satır):
-                for j in range(0, sutun):
+            for i in range(0, row):
+                for j in range(0, column):
                     orj_pix = pixels[i][j]
                     new_orj_pix = orj_pix * olck_egm + olck_snr
 
