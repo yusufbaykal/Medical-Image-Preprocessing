@@ -16,12 +16,20 @@ histogram_equalization(): Girdi görüntüsüne Histogram Eşitleme uygular.
 
 ## TestImage
 ```python
-snr_test(dicom_path, jpg_path): Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Sinyal-Gürültü Oranını (SNR) hesaplar. 
-
-calculate_psnr(dicom_path, jpg_path): Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Peak Sinyal-Gürültü Oranını (PSNR) hesaplar.
-
-ssim_test(dicom_path, jpg_path): Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Yapısal Benzerlik Endeksini (SSIM) hesaplar. 
+snr_test(dicom_path, jpg_path)
 ```
+Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Sinyal-Gürültü Oranını (SNR) hesaplar. 
+
+```python
+calculate_psnr(dicom_path, jpg_path)
+```
+Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Peak Sinyal-Gürültü Oranını (PSNR) hesaplar.
+
+```python
+ssim_test(dicom_path, jpg_path) 
+```
+Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Yapısal Benzerlik Endeksini (SSIM) hesaplar. 
+
 
 
 
