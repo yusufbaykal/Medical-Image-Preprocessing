@@ -56,9 +56,3 @@ class TestImage:
         mse = np.mean((img1 - img2) ** 2)
         psnr = 20 * math.log10(255.0 / math.sqrt(mse))
         return psnr
-
-
-test = TestImage("736471439.dcm","yeni.jpg")
-test.snr_test()
-#test.ssm_test()
-#test.calculate_psnr()
