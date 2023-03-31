@@ -51,7 +51,6 @@ Python 3.x yüklü olduğundan emin olun.
   
 ## Kullanım
 
-### Usage
 
 ```python
 from ImagePreprocessing import ImagePreprocessing
