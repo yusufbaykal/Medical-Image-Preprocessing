@@ -3,6 +3,31 @@
 
 Proje içerisinde , medikal görüntü işleme için kullanılan bazı temel araçları ve algoritmaları içermektedir. Özellikle, DICOM formatında bir görüntü ve aynı görüntünün JPEG formatına dönüştürülmüş halinin karşılaştırması için bir SNR testi, SSIM testi ve PSNR testi uygulaması gerçekleştirilmiştir.
 
+
+## Kurulum
+Projeyi klonlayın
+
+```bash
+  git clone https://github.com/yusufbaykal/Medical-Image-Preprocessing.git
+```
+
+Proje dizinine gidin
+
+```bash
+  cd Medical-Image-Preprocessing
+```
+
+Gerekli paketleri yükleyin
+
+Python 3.x yüklü olduğundan emin olun.
+
+
+```bash
+  pip install -r requirements.txt
+
+```
+## Kullanım
+
 ## ImagePreprocessing
 ```python
 read_dicom(): DICOM formatındaki bir görüntüyü okur.
@@ -31,35 +56,6 @@ Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farkl
 ssim_test(dicom_path, jpg_path) 
 ```
 Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Yapısal Benzerlik Endeksini (SSIM) hesaplar. 
-
-
-
-
-## Kurulum
-Projeyi klonlayın
-
-```bash
-  git clone https://github.com/yusufbaykal/Medical-Image-Preprocessing.git
-```
-
-Proje dizinine gidin
-
-```bash
-  cd Medical-Image-Preprocessing
-```
-
-Gerekli paketleri yükleyin
-
-Python 3.x yüklü olduğundan emin olun.
-
-
-```bash
-  pip install -r requirements.txt
-
-```
-
-  
-## Kullanım
 
 
 ```python
