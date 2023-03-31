@@ -1,7 +1,9 @@
 
 # Medical Image Preprocessing
 
-Proje içerisinde , medikal görüntü işleme için kullanılan bazı temel araçları ve algoritmaları içermektedir. Özellikle, DICOM formatında bir görüntü ve aynı görüntünün JPEG formatına dönüştürülmüş halinin karşılaştırması için bir SNR testi, SSIM testi ve PSNR testi uygulaması gerçekleştirilmiştir.
+Bu projede, medikal görüntü işleme için temel araçlar ve algoritmalar ele alınmıştır. Özellikle, DICOM formatındaki görüntülerin farklı veri tiplerine dönüştürülmesi ve Dicom formatındaki görüntülerin JPEG formatına dönüştürülmesi sonrasında, SNR, SSIM ve PSNR testlerinin uygulanması konuları işlenmiştir. Proje içerisinde gerçekleştirilen işlemlerin detaylı anlatımını sağlamak ve teori olarak da anlatımını aktarmak  amacıyla bir blog yazı yazılmıştır. 
+
+Blog Yazısı : [https://medium.com/@yusufbaykaloglu/medikal-g%C3%B6r%C3%BCnt%C3%BC-i%CC%87%C5%9Fleme-medical-i%CC%87mage-processing-part-1-abecabce6c54]
 
 
 ## Kurulum
