@@ -1,0 +1,6 @@
+pydicom==2.3.1
+scikit-image==0.19.3
+matplotlib==3.7.0
+Pillow==9.4.0
+opencv-python==4.7.0
+numpy==1.23.5
