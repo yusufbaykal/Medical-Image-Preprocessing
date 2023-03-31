@@ -29,6 +29,12 @@ Python 3.x yüklü olduğundan emin olun.
 ## Kullanım
 
 ## ImagePreprocessing
+
+```python
+from ImagePreprocessing import ImagePreprocessing
+image_prep = ImagePreprocessing("path/to/image")
+```
+
 ```python
 read_dicom(): DICOM formatındaki bir görüntüyü okur.
 read_jpeg(): JPEG formatındaki bir görüntüyü okur.
@@ -42,6 +48,11 @@ dicom_to_npy() : Verilen dosya yolundaki Dicom formatındaki görüntüleri npy.
 ```
 
 ## TestImage
+```python
+from TestImage import TestImage
+test = TestImage(dicom_path,jpg_path)
+```
+
 ```python
 snr_test(dicom_path, jpg_path)
 ```
@@ -57,15 +68,6 @@ ssim_test(dicom_path, jpg_path)
 ```
 Bu fonksiyon, bir DICOM formatında ve bir de JPEG formatında verilen iki farklı görüntü arasındaki Yapısal Benzerlik Endeksini (SSIM) hesaplar. 
 
-
-```python
-from ImagePreprocessing import ImagePreprocessing
-image_prep = ImagePreprocessing("path/to/image")
-```
-```python
-from TestImage import TestImage
-test = TestImage(dicom_path,jpg_path)
-```
 ## İmage Preprocessing
 
 #### Dicom to JPEG
