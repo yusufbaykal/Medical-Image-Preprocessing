@@ -12,6 +12,8 @@ negative(): Girdi görüntüsündeki renkleri tersine çevirir.
 unsharp_mask(): Girdi görüntüsüne Unsharp Mask filtresi uygular.
 equalizeHist(): Girdi görüntüsüne Histogram Eşitleme uygular.
 histogram_equalization(): Girdi görüntüsüne Histogram Eşitleme uygular.
+dicom_to_jpeg(): Verilen dosya yolundaki Dicom formatındaki görüntüleri JPEG formatına dönüştürür.
+dicom_to_npy() : Verilen dosya yolundaki Dicom formatındaki görüntüleri npy. formatına dönüştürür.
 ```
 
 ## TestImage
@@ -70,6 +72,18 @@ test = TestImage(dicom_path,jpg_path)
 ```
 ## İmage Preprocessing
 
+#### Dicom to JPEG
+```python
+dicom_path = "my_dicom_file.dcm"
+jpeg_path = "my_jpeg_file.jpg"
+image_prep.dicom_to_jpeg(dicom_path, jpeg_path)
+```
+#### Dicom to Matrix
+```python
+dicom_path = "path/to/dicom/file.dcm"
+npy_path = "path/to/save/npy/file.npy"
+image = image_prep.dicom_to_npy(dicom_path, npy_path)
+```
 #### Dicom Data Type
 ```python
 image = image_prep.read_dicom("path/to/dicom")
